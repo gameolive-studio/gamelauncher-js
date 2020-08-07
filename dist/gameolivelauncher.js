@@ -29,7 +29,7 @@ gameolive.createModal = function(contentToShow) {
   modal.className = 'gameoliveModal';
   modal.setAttribute(
     'style',
-    'position:absolute; width:100%; height:100%;zIndex:9999; background: rgba(0, 0, 0, 0.5);'
+    'position:absolute; width:100%; height:100%;z-index:9999; background: rgba(0, 0, 0, 0.5);top:0;left:0'
   );
 
   var modalContent = document.createElement('div');
