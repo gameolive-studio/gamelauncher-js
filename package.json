@@ -1,0 +1,22 @@
+{
+  "name": "@gameolive/gamelauncher-js",
+  "version": "0.0.1",
+  "description": "JS to to simplify game launches with GameOlive platform",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gameolive-studio/gamelauncher-js.git"
+  },
+  "author": "GameOlive <studio@gameolive.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gameolive-studio/gamelauncher-js/issues"
+  },
+  "homepage": "https://github.com/gameolive-studio/gamelauncher-js#readme"
+}
