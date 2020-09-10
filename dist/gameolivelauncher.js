@@ -13,7 +13,7 @@ gameolive.launch = function(configuration) {
     return;
   }
   var gameIframe = gameolive.createIFrame(
-    'https://wheeloffortune-gameolive.web.app?token=' + configuration.token
+    'https://static.luckybeetlegames.com/brandable-optin-wheel/dist/?token=' + configuration.token
   );
   gameolive.createModal(gameIframe);
 };
@@ -36,7 +36,7 @@ gameolive.createModal = function(contentToShow) {
   modalContent.className = 'gameoliveModalContent';
   modalContent.setAttribute(
     'style',
-    'position:absolute; width:50%; height:50%; top:25%; left:25%;zIndex:99999'
+    'position:absolute; width:70%; height:70%; top:15%; left:15%;zIndex:99999'
   );
 
   modalContent.appendChild(contentToShow);
