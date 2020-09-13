@@ -8,7 +8,7 @@ gameolive.launch = function(configuration) {
 //     alert('Please provide a valid user token');
 //     return;
 //   }
-  if (!configuration.gameId) {
+  if (!configuration.gameid) {
     alert('Please provide a valid game');
     return;
   }
