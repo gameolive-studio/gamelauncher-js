@@ -13,7 +13,7 @@ gameolive.launch = function(configuration) {
     return;
   }
   var gameIframe = gameolive.createIFrame(
-    'https://static.luckybeetlegames.com/brandable-optin-wheel/dist/?gameid=' + configuration.gameid+ '&configid='+ configuration.configid + "&operatorid="+  configuration.operatorid
+    'https://static.luckybeetlegames.com/' + configuration.gameid+ '/dist/?gameid=' + configuration.gameid+ '&configid='+ configuration.configid + "&operatorid="+  configuration.operatorid
   );
   gameolive.createModal(gameIframe);
 };
