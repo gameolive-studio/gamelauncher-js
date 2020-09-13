@@ -4,10 +4,10 @@ var gameolive = gameolive || {};
  * @param {token:string} configuration
  */
 gameolive.launch = function(configuration) {
-  if (!configuration.token) {
-    alert('Please provide a valid user token');
-    return;
-  }
+//   if (!configuration.token) {
+//     alert('Please provide a valid user token');
+//     return;
+//   }
   if (!configuration.gameId) {
     alert('Please provide a valid game');
     return;
